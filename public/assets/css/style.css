@@ -1,0 +1,59 @@
+table {
+
+th, td
+{
+    border: solid;
+    padding: 20px;
+
+}    margin: 20px auto;
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+body
+{
+    background-color: rgb(30, 108, 210);
+    font-family: Arial;
+}
+#main-container{
+    margin: 150px auto;
+    width: 600px;
+}
+table
+{
+    background-color: aliceblue;
+    text-align: left;
+    width: 100%;
+}
+th, td
+{
+    border: solid;
+    padding: 20px;
+
+}
+tr:nth-of-type(1) > th
+{
+     /* Color primera fila */
+    background-color: orange;
+}
+
+h4 {
+  text-align: center;
+  color: greenyellow;
+  font: normal 16px arial;
+}
+h1 {
+  text-align: center;
+  color:red;
+  font: normal 34px arial;
+}
+.img
+{
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  position: relative;
+  border-radius: 30%;
+  left: 640px;
+  top: 25px;
+}
